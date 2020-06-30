@@ -1,5 +1,9 @@
 ## typedoc-plugin-lerna-packages
 
+> This fork adds:
+> - compatibility with typedoc 0.17+ (dropped support for 0.16)
+> - respect for the `readme` option
+
 A plugin for [Typedoc](http://typedoc.org) that groups all Lerna packages
 into own TS module. Normally Typedoc handles each file as a module, this
 isn't correct for lerna packages, as each package should be treated as

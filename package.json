@@ -1,7 +1,7 @@
 {
-  "name": "typedoc-plugin-lerna-packages",
+  "name": "typedoc-plugin-lerna-packages-atj",
   "version": "0.2.1",
-  "description": "Display Typescript documentation for Lerna monorepo with the correct module exports.",
+  "description": "Display Typescript documentation for Lerna monorepo with the correct module exports. [FORK]",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -14,18 +14,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcj/typedoc-plugin-lerna-packages"
+    "url": "https://github.com/adamjarret/typedoc-plugin-lerna-packages"
   },
   "author": "Marc J. Schmidt <marc@marcjschmidt.de>",
+  "contributors": [
+    "Adam Jarret <adam@atj.me> (https://atj.me)"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "typedoc": "^0.17.0"
   },
   "devDependencies": {
-    "@types/glob": "^7.1.1",
-    "@types/node": "^13.1.8",
-    "typedoc": "^0.17.0",
-    "typescript": "^3.8.3"
+    "@types/glob": "^7.1.2",
+    "@types/node": "^14.0.14",
+    "typedoc": "^0.17.8",
+    "typescript": "^3.9.5"
   },
   "files": [
     "dist"
